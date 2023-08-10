@@ -1,0 +1,66 @@
+@media print,
+(max-width: 1023px)
+{
+    /*----------------
+        Main video
+    ----------------*/
+    .main_video .thumb
+    {
+        padding-bottom: 52.857%;
+    }
+
+
+
+    /*----------------------
+        About data forum
+    ----------------------*/
+    .about_data_forum .data
+    {
+        width: 100%;
+    }
+
+
+    .about_data_forum .image
+    {
+        width: 100%;
+        margin-top: 30px;
+    }
+
+    .about_data_forum .image img
+    {
+        margin: 0;
+    }
+
+
+
+    /*------------------------
+        Program data forum
+    ------------------------*/
+    .program_data_forum .topics
+    {
+        width: 556px;
+        max-width: 100%;
+    }
+
+
+    .program_data_forum .video_link
+    {
+        width: 100%;
+    }
+
+
+
+    /*-----------------------
+        Reslts data forum
+    -----------------------*/
+    .results_data_forum .data
+    {
+        width: 556px;
+    }
+
+
+    .results_data_forum .row > *
+    {
+        width: calc(50% - 24px);
+    }
+}

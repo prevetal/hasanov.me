@@ -1,0 +1,179 @@
+@media print,
+(max-width: 767px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+    .cont
+    {
+        padding: 0 20px;
+    }
+
+
+
+    /*----------------
+        Page links
+    ----------------*/
+    .page_links .row
+    {
+        display: block;
+        overflow: auto;
+
+        width: calc(100% + 40px);
+        margin: 0 -20px;
+        padding: 0 20px;
+
+        white-space: nowrap;
+
+        scrollbar-color: transparent transparent !important;
+        scrollbar-width: thin !important;
+    }
+
+    .page_links .row::-webkit-scrollbar
+    {
+        width: 0 !important;
+        height: 0 !important;
+
+        background-color: transparent !important;
+    }
+
+    .page_links .row::-webkit-scrollbar-thumb
+    {
+        background-color: transparent !important;
+    }
+
+
+    .page_links .row > *
+    {
+        display: inline-block;
+
+        max-width: none;
+        margin: 0;
+
+        vertical-align: top;
+    }
+
+    .page_links .row > * + *
+    {
+        margin-left: 36px;
+    }
+
+
+
+    /*----------------
+        Main video
+    ----------------*/
+    .main_video
+    {
+        margin-bottom: 50px;
+    }
+
+
+    .main_video .thumb
+    {
+        padding-bottom: 61.194%;
+    }
+
+    .main_video .thumb:before
+    {
+        top: 10px;
+        left: 10px;
+    }
+
+
+    .main_video .thumb .icon
+    {
+        width: 59px;
+        height: 40px;
+    }
+
+
+
+    /*----------------------
+        About data forum
+    ----------------------*/
+    .about_data_forum .desc
+    {
+        margin-top: 16px;
+    }
+
+
+    .about_data_forum .link a
+    {
+        width: 100%;
+
+        text-align: center;
+    }
+
+
+
+    /*------------------------
+        Program data forum
+    ------------------------*/
+    .program_data_forum
+    {
+        margin-bottom: 50px;
+    }
+
+
+
+    .program_data_forum .topics
+    {
+        width: 266px;
+    }
+
+
+    .program_data_forum .topics .row
+    {
+        margin-left: 0;
+    }
+
+    .program_data_forum .topics .row > *
+    {
+        width: 100%;
+        margin-left: 0;
+    }
+
+
+    .program_data_forum .video_link .thumb .icon
+    {
+        width: 59px;
+        height: 40px;
+    }
+
+
+    .program_data_forum .video_link .thumb
+    {
+        padding-bottom: 61.194%;
+    }
+
+    .program_data_forum .video_link .thumb:before
+    {
+        top: 10px;
+        left: 10px;
+    }
+
+
+
+    /*-----------------------
+        Reslts data forum
+    -----------------------*/
+    .results_data_forum
+    {
+        margin-bottom: 50px;
+    }
+
+
+    .results_data_forum .row
+    {
+        margin-bottom: -24px;
+        margin-left: 0;
+    }
+
+    .results_data_forum .row > *
+    {
+        width: 100%;
+        margin-bottom: 24px;
+        margin-left: 0;
+    }
+}
