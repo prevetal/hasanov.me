@@ -489,6 +489,8 @@ button
 
     display: flex;
 
+    text-decoration: none;
+
     justify-content: space-between;
     align-items: flex-start;
     align-content: flex-start;
@@ -599,6 +601,74 @@ button
 
     width: 100%;
     height: 100%;
+}
+
+
+
+/*----------------
+    Resolution
+----------------*/
+.resolution
+{
+    margin-bottom: 70px;
+}
+
+
+.resolution .title
+{
+    font-size: 32px;
+    font-weight: 500;
+    line-height: calc(100% + 8px);
+
+    margin-bottom: 24px;
+}
+
+
+.resolution .desc
+{
+    color: #4f4f4f;
+    line-height: calc(100% + 8px);
+}
+
+
+.resolution .desc > * + *
+{
+    margin-top: 20px;
+}
+
+
+.resolution .desc li
+{
+    position: relative;
+
+    display: block;
+    overflow: hidden;
+
+    padding-left: 16px;
+
+    list-style-type: none;
+}
+
+.resolution .desc li + li
+{
+    margin-top: 4px;
+}
+
+.resolution .desc li:before
+{
+    position: absolute;
+    top: 9px;
+    left: 0;
+
+    display: block;
+
+    width: 5px;
+    height: 5px;
+
+    content: '';
+
+    border-radius: 50%;
+    background: currentColor;
 }
 
 
