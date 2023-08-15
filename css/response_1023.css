@@ -28,7 +28,7 @@
 
     .about_data_forum .image img
     {
-        display: block;
+        display: none;
 
         margin: 0;
     }
