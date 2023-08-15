@@ -442,6 +442,11 @@ button
     margin: auto;
 }
 
+.about_data_forum .image img.tablet
+{
+    display: none;
+}
+
 
 
 /*------------------------
