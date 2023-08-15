@@ -4,7 +4,7 @@
     /*----------------
         Main video
     ----------------*/
-    .main_video .thumb
+    .main_video .data
     {
         padding-bottom: 52.857%;
     }
@@ -46,6 +46,16 @@
     .program_data_forum .video_link
     {
         width: 100%;
+    }
+
+
+
+    /*----------------
+        Resolution
+    ----------------*/
+    .resolution .row > *
+    {
+        width: calc(50% - 24px);
     }
 
 

@@ -222,6 +222,61 @@ button
 }
 
 
+.main_video .data
+{
+    position: relative;
+    z-index: 3;
+
+    padding-bottom: 41.813%;
+
+    background: #ddd;
+}
+
+.main_video .data:before
+{
+    position: absolute;
+    z-index: 1;
+    top: 20px;
+    left: 20px;
+
+    display: block;
+
+    width: 100%;
+    height: 100%;
+
+    content: '';
+
+    border: 1px solid #e5e5e5;
+    background: #f2fdff;
+}
+
+
+.main_video video
+{
+    position: absolute;
+    z-index: 3;
+    top: 0;
+    left: 0;
+
+    display: block;
+
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+}
+
+
+/* .main_video a
+{
+    color: currentColor;
+
+    display: block;
+
+    text-decoration: none;
+}
+
+
 .main_video .thumb
 {
     position: relative;
@@ -284,7 +339,7 @@ button
 
     width: 100%;
     height: 100%;
-}
+} */
 
 
 
@@ -316,44 +371,27 @@ button
 
 .about_data_forum .title
 {
-    font-size: 48px;
-    line-height: calc(100% + 10px);
-}
-
-.about_data_forum .title span
-{
-    color: #051583;
-}
-
-
-.about_data_forum .sub_title
-{
-    font-size: 24px;
+    font-size: 32px;
     font-weight: 500;
     line-height: calc(100% + 8px);
-
-    margin-top: 24px;
 }
 
 
 .about_data_forum .desc
 {
     color: #4f4f4f;
-    font-size: 18px;
-    line-height: calc(100% + 4px);
+    line-height: calc(100% + 8px);
 
-    margin-top: 8px;
+    margin-top: 16px;
 }
 
 
 .about_data_forum .exp
 {
-    color: #9fa0b2;
-    font-size: 14px;
-    font-style: italic;
-    line-height: calc(100% + 4px);
+    color: #4f4f4f;
+    line-height: calc(100% + 8px);
 
-    margin-top: 8px;
+    margin-top: 16px;
 }
 
 
@@ -425,8 +463,7 @@ button
 
 .program_data_forum .desc
 {
-    font-size: 24px;
-    font-weight: 500;
+    color: #4f4f4f;
     line-height: calc(100% + 8px);
 
     margin-top: 24px;
@@ -633,42 +670,75 @@ button
 
 .resolution .desc > * + *
 {
-    margin-top: 20px;
+    margin-top: 16px;
 }
 
 
-.resolution .desc li
+.resolution .desc a
 {
-    position: relative;
+    color: #051583;
+}
 
+
+.resolution .row
+{
+    display: flex;
+
+    margin-top: 40px;
+    margin-bottom: -24px;
+    margin-left: -24px;
+
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.resolution .row > *
+{
+    color: #4f4f4f;
+    line-height: calc(100% + 8px);
+
+    display: flex;
+
+    width: calc(20% - 24px);
+    margin-bottom: 24px;
+    margin-left: 24px;
+
+    text-decoration: none;
+
+    justify-content: space-between;
+    align-items: flex-start;
+    align-content: flex-start;
+    flex-wrap: wrap;
+}
+
+
+.resolution .row > * .icon
+{
+    display: flex;
+
+    width: 32px;
+    height: 32px;
+
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.resolution .row > * .icon img
+{
     display: block;
-    overflow: hidden;
 
-    padding-left: 16px;
-
-    list-style-type: none;
+    max-width: 100%;
+    max-height: 100%;
 }
 
-.resolution .desc li + li
+
+.resolution .row > * .icon + *
 {
-    margin-top: 4px;
-}
-
-.resolution .desc li:before
-{
-    position: absolute;
-    top: 9px;
-    left: 0;
-
-    display: block;
-
-    width: 5px;
-    height: 5px;
-
-    content: '';
-
-    border-radius: 50%;
-    background: currentColor;
+    width: calc(100% - 40px);
 }
 
 
@@ -692,11 +762,10 @@ button
 
 .results_data_forum .desc
 {
-    font-size: 24px;
-    font-weight: 500;
+    color: #4f4f4f;
     line-height: calc(100% + 8px);
 
-    margin-top: 24px;
+    margin-top: 40px;
 }
 
 .results_data_forum .desc a

@@ -69,23 +69,23 @@
     }
 
 
-    .main_video .thumb
+    .main_video .data
     {
         padding-bottom: 61.194%;
     }
 
-    .main_video .thumb:before
+    .main_video .data:before
     {
         top: 10px;
         left: 10px;
     }
 
 
-    .main_video .thumb .icon
+    /* .main_video .thumb .icon
     {
         width: 59px;
         height: 40px;
-    }
+    } */
 
 
 
@@ -151,6 +151,24 @@
     {
         top: 10px;
         left: 10px;
+    }
+
+
+
+    /*----------------
+        Resolution
+    ----------------*/
+    .resolution .row
+    {
+        width: 266px;
+        max-width: 100%;
+        margin-left: 0;
+    }
+
+    .resolution .row > *
+    {
+        width: 100%;
+        margin-left: 0;
     }
 
 
